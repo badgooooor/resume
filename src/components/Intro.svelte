@@ -1,12 +1,12 @@
 <script lang="ts">
-	export let name: string = 'Foo';
-	export let nickname: string = '';
+	export let name: string = 'Yuttakhan Baingern';
+	export let nickname: string = 'Bier';
 	export let phone: string = '';
-	export let email: string = '';
-	export let github: string = '';
-	export let linkedin: string = '';
+	export let email: string = 'yuttakhanbaingen@gmail.com';
+	export let github: string = 'badgoooor';
+	export let linkedin: string = 'yuttakhan-baingern-794853167';
 	export let location: string = '';
-	export let website: string = '';
+	export let website: string = 'https://yuttakhanb.dev';
 </script>
 
 <div class="flex flex-wrap flex-col sm:flex-row print:flex-row text-sm sm:text-base">

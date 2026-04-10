@@ -1,203 +1,126 @@
 {
 	"intro": {
-		"name": "Manassarn Manoonchai",
-		"nickname": "Noom",
+		"name": "Yuttakhan Baingern",
+		"nickname": "Bier",
 		"phone": "",
-		"email": "manassarn@gmail.com",
-		"github": "narze",
-		"linkedin": "manassarn",
+		"email": "yuttakhanbaingen@gmail.com",
+		"github": "badgooooor",
+		"linkedin": "yuttakhan-baingern-794853167",
 		"location": "Bangkok, Thailand",
-		"website": "narze.live"
+		"website": "https://yuttakhanb.dev"
 	},
-	"projects": [
-		{
-			"name": "ChatOS",
-			"details": "Hackable chatbot web application",
-			"url": "chat.narze.live",
-			"hide": false
-		},
-		{
-			"name": "Digital Garden",
-			"details": "My notes & stuff (Second Brain)",
-			"url": "garden.narze.live",
-			"hide": false
-		},
-		{
-			"name": "Manoonchai",
-			"details": "Modern, productive, and data-driven Thai keyboard layout. A collection of projects built with TypeScript, Elixir, Svelte",
-			"url": "manoonchai.com",
-			"hide": false
-		},
-		{
-			"name": "Dotfiles",
-			"details": "macOS dotfiles with setup script for self use, tested on Apple Silicon Macs (Zsh, Zinit, Dotbot, GNU Make, etc.)",
-			"url": "github.com/narze/dotfiles",
-			"hide": false
-		},
-		{
-			"name": "Resumette",
-			"details": "Interactive & printable résumé with tailored skills fitted in single letter page (This page!)",
-			"url": "resume.narze.live",
-			"hide": false
-		},
-		{
-			"name": "Thwordle",
-			"details": "Thai language Wordle clone.",
-			"url": "thwordle.narze.live",
-			"hide": false
-		},
-		{
-			"name": "9armbot (Contributor)",
-			"details": "Twitch & Discord bot for 9arm (Thai technology Youtuber). I helped re-structuring the project using TypeScript & Prisma",
-			"url": "github.com/thananon/twitch_tools",
-			"hide": true
-		},
-		{
-			"name": "#100DaysOfCode",
-			"details": "My take on practicing modern frontend development by building small projects in 100 days",
-			"url": "100daysofcode-narze.vercel.app",
-			"hide": true
-		},
-		{
-			"name": "Baht.rb",
-			"details": "Ruby gem to convert number to Thai Baht format",
-			"url": "rubygems.org/gems/baht",
-			"hide": true
-		},
-		{
-			"name": "Baht.js",
-			"details": "Convert number to Thai Baht format, but 10x faster & fully typed.",
-			"url": "npmjs.com/package/baht",
-			"hide": true
-		},
-		{
-			"name": "Popyut",
-			"details": "Contributed to a clone of popcat.click meme clicking game, gone viral and got 2M visitors within one week",
-			"url": "github.com/popyut/popyut",
-			"hide": true
-		},
-		{
-			"name": "Resound",
-			"details": "Remote soundboard for meetings or streaming. Uses WebRTC instead of server to host rooms.",
-			"url": "github.com/narze/resound",
-			"hide": true
-		}
-	],
+	"projects": [],
 	"technologies": [
 		{
 			"section": "Languages:",
-			"details": "Ruby, JavaScript, Node.js (strong). TypeScript, SQL (proficient)."
+			"details": "Javascript/TypeScript (strong), Python, Golang, Rust, SQL"
 		},
 		{
 			"section": "Frameworks:",
-			"details": "Ruby on Rails, ReactJS, NextJS, NestJS, SvelteJS, TailwindCSS, Bootstrap"
+			"details": "React/Next.js, Svelte, Nest.js, Fastify, TailwindCSS, RxJS"
+		},
+		{
+			"section": "Databases:",
+			"details": "SQL, MongoDB, Redis, Kafka"
 		},
 		{
 			"section": "Tools:",
-			"details": "Git, Terraform, Docker, Kubernetes, Helm, ArgoCD, FluxCD, Robot Framework, Selenium, Zsh, GitHub Codespaces"
+			"details": "Git, Docker, Kubernetes, testcontainers, Playwright, k6, Amplitude, Datadog"
 		},
 		{
 			"section": "Other:",
-			"details": "AWS, GCP, Firebase, Vercel, DigitalOcean, Cloud66, Github Actions, CircleCI, CloudFlare"
+			"details": "GCP, Firebase, GitHub Actions, Ethereum dApp development, FHIR/EHR health informatics"
 		}
 	],
 	"workExperiences": [
 		{
-			"position": "Lead Software Engineer",
-			"company": "EVP Corporation (formerly EventPop)",
-			"url": "https://eventpop.me",
-			"years": ["2023", "Current"],
+			"position": "Quality Assurance Engineer (Automation)",
+			"company": "Earnin",
+			"url": "https://earnin.com",
+			"years": ["2025", "2026"],
 			"details": [
-				"Developed ticket resale platform for EventPop within 1 month",
-				"Upgraded ticketing system with Dual-boot methodology with zero downtime",
-				"Introduced Consumer Driven Contract Testing to the development team using Pact"
+				"Designed, authored and implemented test cases to ensure quality of web applications and mobile applications",
+				"Cross-collaborated with engineers and stakeholders to bring clarity on requirements and timeline, triage and debug issues",
+				"Drived initiatives on quality signal improvements e.g. applying test telemetry, introducing intuitive test pipeline, Chromatic viewport updates",
+				"Maintained test suites to ensure stability and "
 			]
 		},
 		{
-			"position": "Senior Infrastructure Software Engineer",
-			"company": "OPN TH (formerly Omise)",
-			"url": "https://opn.ooo/",
-			"years": ["2021", "2023"],
+			"position": "Open source Developer",
+			"company": "Protocol Labs Dev Guild",
+			"url": "https://contributiondao.com",
+			"years": ["2025"],
 			"details": [
-				"Containerized, developed, and maintained Opn.Store infrastructure on EKS across multiple environments using Terraform, Docker, Kubernetes, and Helm",
-				"Designed architecture using Microservices Pattern & Domain-Driven Design on Sales Promotion feature for Opn.Store",
-				"Helped, and collaborated with software engineering team on coding with good practices and lowering technical debt",
-				"Researched & introduced modern web technologies to the team, such as SvelteJS, TailwindCSS, Vite, etc.",
-				"Designed, bootstrapped, and developed 4 E-commerce related services for Opn.Store"
+				"Selected as fellowship during Cohort 2 as contributor",
+				"Maintained and implemented features in IPFS web console and libp2p",
+				"Drived initiate on Bluesky backup web application using Storacha"
 			]
 		},
 		{
-			"position": "Full-stack Developer, Co-founder",
-			"company": "EventPop (acquired by OPN TH in 2021, divested in 2023)",
-			"url": "https://eventpop.me",
-			"years": ["2015", "2021"],
+			"position": "Software Engineer",
+			"company": "ContributionDAO",
+			"url": "https://contributiondao.com",
+			"years": ["2024", "2025"],
 			"details": [
-				"Designed, developed and maintained several core services for EventPop website (Ticketing, Seating, Payment, Fee Calculation, Line Item, Billing, Reporting, APIs, etc.) using Ruby on Rails, sold 2M+ tickets within 6 years",
-				"Researched & applied improvements for development workflow. Testing libraries : RSpec, Guard, VCR, Capybara, Selenium, Cucumber, Timecop. CI/CD : CircleCI, Github Actions, Drone CI, ArgoCD, FluxCD, Terraform",
-				"Maintained server operations, deployments, containerization with Docker & Kubernetes, CI/CD. Also pioneered DevOps practices in the team keeping daily release & deployment possible.",
-				"Integrated 3rd-party services : Kerry Express, DHL, Queue-It, Refund Protect, Skootar, Tanita Body Scale",
-				"Integrated payment service providers : Omise, ThaiEPay, 123 by 2C2P, SCB-Easy, K-PayPlus, K-PaymentGateway. Processed more than 1 billion THB",
-				"Helped interview more than 50 software engineers, gave insights & feedbacks on technical aspects of candidates, designed tech-related questions & on-site coding challenges"
+				"Designed and implemented staking platform for web application and prototype products",
+				"Implemented E2E test from connecting cryptocurrency wallet to interacting with smart contract via web application",
+				"Set up CI/CD process for application deployment"
 			]
 		},
 		{
-			"position": "Maker, Co-founder",
-			"company": "Maker Zoo",
-			"url": "https://fb.me/makerzoo",
-			"years": ["2014", "2016"],
+			"position": "Software Engineer",
+			"company": "H Lab Co. Ltd.",
+			"url": "https://www.hlabconsulting.com/",
+			"years": ["2022", "2023"],
 			"details": [
-				"Pioneered Maker Movement in Thailand by opening first of the Makerspaces in Bangkok & Thailand",
-				"Hosted maker workshops eg. 3D-modeling, 3D-printing, Arduino, IoT, etc. Having more than 100 participants combined.",
-				"Developed hardware-related products for 3-5 clients and startups",
-				"Developed smart door lock system for Hubba, first co-working space in Bangkok",
-				"Provided 3D-printing service & consultant to more than 50 clients",
-				"Hosted 10+ chapters of tutorial videos on Intel Galileo development board, for Intel Thailand"
+				"Designed and implemented software modules for product in frontend, backend, and operation services",
+				"Implemented integration from hospital's 3rd-party services to application, including API services and SSO authentication between systems",
+				"Orchestrated system load testing to ensure reliability of services and advocated for improvements",
+				"Initiated processes and methodologies to improve software quality"
 			]
 		},
 		{
-			"position": "Web / IoT Developer (Contract)",
-			"company": "Box24",
-			"url": "https://washbox24.com",
-			"years": ["2015", "2016"],
+			"position": "Software Engineer (Fullstack Team)",
+			"company": "Alpha Ventures DAO",
+			"url": "https://alphaventuredao.io",
+			"years": ["2021"],
 			"details": [
-				"Developed internet connected Smart Lockers System using web technologies (Node.js, React.js) on embedded systems (Ubuntu Linux, Arduino, Raspberry Pi)",
-				"Developed private Node.js library to connect with Nayax via serial port to receive cashless payment on vending machines, and also supported Thai Baht cash payment"
+				"Maintained existing products e.g. Alpha Homora in web application module and monitoring bot",
+				"Developed upcoming products in web application and required backend"
 			]
 		},
 		{
-			"position": "Web Developer",
-			"company": "Figabyte",
-			"url": "https://www.facebook.com/figabyte",
-			"years": ["2011", "2014"],
+			"position": "Software Engineer (Part-time)",
+			"company": "SCB 10X, Venture Builder",
+			"url": "https://scb10x.com",
+			"years": ["2021"],
 			"details": [
-				"Developed more than 20 Facebook web apps with CodeIgniter, using Facebook API",
-				"Developed web platform using Ruby on Rails 3 & 4",
-				"Made iOS apps for several clients using PhoneGap and RubyMotion"
+				"Developed merchant backoffice and user-interacting app for wholesale e-commerce website"
 			]
 		},
 		{
-			"position": "Part-time Web Developer",
-			"company": "Wongnai Media (wongnai.com)",
-			"url": "https://wongnai.com",
-			"years": ["2010"],
+			"position": "Software Engineer Intern",
+			"company": "SCB 10X, Venture Builder",
+			"url": "https://scb10x.com",
+			"years": ["2020"],
 			"details": [
-				"Developed a small part of website using Java with Spring MVC Framework built with Apache Maven",
-				"Learned TDD practice & making early-stage startup"
+				"Developed merchant onboarding website for delivery application",
+				"Supported feature implementation in other projects"
 			]
 		}
 	],
 	"educations": [
 		{
 			"head": "B.Eng. Computer Engineering",
-			"details": "Chulalongkorn University, TH. 2007-2010 (GPA 3.40)"
+			"details": "King Mongkut's Institute of Technology Ladkrabang, 2018–2021"
 		}
 	],
 	"interests": [
-		"Areas : Coding, Productivity & Life-hacks, Mechanical Keyboards",
-		"Typing : 120+ words per minute (Colemak Mod-DH layout)"
+		"Focused and fast learner software engineer specialised in fullstack web development",
+		"Experience across commerce, decentralised finance, and healthtech domains"
 	],
 	"resumeUrl": {
-		"sourceLink": "https://github.com/narze/resume",
-		"fullVersion": "https://resume.narze.live"
+		"sourceLink": "https://github.com/badgooooor/resume",
+		"fullVersionLink": ""
 	}
 }
