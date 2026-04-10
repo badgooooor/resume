@@ -16,6 +16,7 @@
 		workExperiences = [],
 		educations = [],
 		interests = [],
+		openSourceContributions = [],
 		resumeUrl: { sourceLink = '', fullVersionLink = '' } = {}
 	} = profile || {});
 
@@ -108,6 +109,28 @@
 							<a href="https://{project.url}" target="_blank" rel="noreferrer"
 								><strong>{project.url}</strong></a
 							>
+						</li>
+					</Hideable>
+				{/each}
+			</ul>
+		</Hideable>
+	</section>
+
+	<section>
+		<Hideable>
+			<h2 class="text-2xl print:text-4xl uppercase text-left">Open Source Contributions</h2>
+			<hr />
+
+			<ul class="text-left list-disc pl-8">
+				{#each openSourceContributions as contrib}
+					<Hideable hide={contrib.hide}>
+						<li>
+							<strong
+								><a href={contrib.projectUrl} target="_blank" rel="noreferrer"
+									>{contrib.project}</a
+								></strong
+							>
+							- {contrib.details}
 						</li>
 					</Hideable>
 				{/each}

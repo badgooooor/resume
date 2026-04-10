@@ -5,6 +5,7 @@ export interface IProfileResp {
 	workExperiences: IWorkExperience[];
 	educations: IEducation[];
 	interests: string[];
+	openSourceContributions: IOpenSourceContribution[];
 	resumeUrl: {
 		sourceLink: string;
 		fullVersionLink: string;
@@ -44,4 +45,11 @@ export interface IWorkExperience {
 export interface IEducation {
 	head: string;
 	details: string;
+}
+
+export interface IOpenSourceContribution {
+	project: string;
+	projectUrl: string;
+	details: string;
+	hide?: boolean;
 }
