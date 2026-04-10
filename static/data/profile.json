@@ -9,7 +9,23 @@
 		"location": "Bangkok, Thailand",
 		"website": "https://yuttakhanb.dev"
 	},
-	"projects": [],
+	"projects": [
+		{
+			"name": "Konseki",
+			"details": "Local-first Chrom extension for recording session and replay for debugging in website",
+			"url": "https://github.com/badgooooor/konseki"
+		},
+		{
+			"name": "Copilot-J",
+			"details": "LabLab Open Source AI Hackathon Submission. Open source Github Copilot alternative for VSCode plugging with LocalAI.",
+			"url": "https://github.com/badgooooor/localai-vscode-plugin"
+		},
+		{
+			"name": "Grader for CE Boost Up 6",
+			"details": "Grader website for Freshmen in CE BOOST UP 6 Camp.",
+			"url": "https://github.com/badgooooor/grader-frontend"
+		}
+	],
 	"technologies": [
 		{
 			"section": "Languages:",
@@ -25,7 +41,7 @@
 		},
 		{
 			"section": "Tools:",
-			"details": "Git, Docker, Kubernetes, testcontainers, Playwright, k6, Amplitude, Datadog"
+			"details": "Git, Docker, Kubernetes, testcontainers, Playwright, Appium, k6, Amplitude, Datadog"
 		},
 		{
 			"section": "Other:",
@@ -63,7 +79,7 @@
 			"years": ["2024", "2025"],
 			"details": [
 				"Designed and implemented staking platform for web application and prototype products",
-				"Implemented E2E test from connecting cryptocurrency wallet to interacting with smart contract via web application",
+				"Implemented full E2E test from connecting crypto wallet to interacting with smart contract in web application",
 				"Set up CI/CD process for application deployment"
 			]
 		},
@@ -76,7 +92,7 @@
 				"Designed and implemented software modules for product in frontend, backend, and operation services",
 				"Implemented integration from hospital's 3rd-party services to application, including API services and SSO authentication between systems",
 				"Orchestrated system load testing to ensure reliability of services and advocated for improvements",
-				"Initiated processes and methodologies to improve software quality"
+				"Initiated processes and methodologies to improve software quality and developer experience"
 			]
 		},
 		{
@@ -85,8 +101,8 @@
 			"url": "https://alphaventuredao.io",
 			"years": ["2021"],
 			"details": [
-				"Maintained existing products e.g. Alpha Homora in web application module and monitoring bot",
-				"Developed upcoming products in web application and required backend"
+				"Implemented web applications and support systems which interacting with Ethereum smart contracts",
+				"Maintained ongoing web applications including improvements and fixes"
 			]
 		},
 		{
@@ -114,10 +130,6 @@
 			"head": "B.Eng. Computer Engineering",
 			"details": "King Mongkut's Institute of Technology Ladkrabang, 2018–2021"
 		}
-	],
-	"interests": [
-		"Focused and fast learner software engineer specialised in fullstack web development",
-		"Experience across commerce, decentralised finance, and healthtech domains"
 	],
 	"resumeUrl": {
 		"sourceLink": "https://github.com/badgooooor/resume",
