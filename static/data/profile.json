@@ -58,7 +58,7 @@
 				"Designed, authored and implemented test cases to ensure quality of web applications and mobile applications",
 				"Cross-collaborated with engineers and stakeholders to bring clarity on requirements and timeline, triage and debug issues",
 				"Drived initiatives on quality signal improvements e.g. applying test telemetry, introducing intuitive test pipeline, Chromatic viewport updates",
-				"Maintained test suites to ensure stability and "
+				"Maintained test suites to ensure product stability"
 			]
 		},
 		{
@@ -131,8 +131,21 @@
 			"details": "King Mongkut's Institute of Technology Ladkrabang, 2018–2021"
 		}
 	],
+	"openSourceContributions": [
+		{
+			"project": "parliament-watch",
+			"projectUrl": "https://github.com/wevisdemo/parliament-watch",
+			"details": "Implemented base components, fixed incorrect UI display and refactored models to components"
+		},
+		{
+			"project": "ipfs-webui",
+			"projectUrl": "https://github.com/ipfs/ipfs-webui",
+			"details": "Implemented improvement features e.g. CAR file import, QR Modal for sharing and UX fixes"
+		}
+	],
 	"resumeUrl": {
 		"sourceLink": "https://github.com/badgooooor/resume",
 		"fullVersionLink": ""
-	}
+	},
+	"interests": []
 }
