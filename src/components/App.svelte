@@ -104,11 +104,10 @@
 				{#each projects as project}
 					<Hideable hide={project.hide}>
 						<li>
-							<strong>{project.name}</strong>
-							- {project.details}
-							<a href="https://{project.url}" target="_blank" rel="noreferrer"
-								><strong>{project.url}</strong></a
+							<strong
+								><a href={project.url} target="_blank" rel="noreferrer">{project.name}</a></strong
 							>
+							- {project.details}
 						</li>
 					</Hideable>
 				{/each}
