@@ -151,7 +151,7 @@
 		"fullVersionLink": ""
 	},
 	"interests": [
-		{ "value": "Sports: running, rock climbing, pickleball and recently into tennis" },
-		{ "value": "Reading books in various topics e.g. non-fiction, literature and philosophy" }
+		{ "value": "Sports: running, rock climbing, pickleball and recently into tennis", "hide": true },
+		{ "value": "Reading books in various topics e.g. non-fiction, literature and philosophy", "hide": true }
 	]
 }

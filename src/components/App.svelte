@@ -21,6 +21,8 @@
 		resumeUrl: { sourceLink = '', fullVersionLink = '' } = {}
 	} = profile || {});
 
+	$: allInterestsHidden = interests.length > 0 && interests.every((i) => i.hide);
+
 	onMount(async () => (profile = await fetchResumeProfile()));
 
 	async function fetchResumeProfile() {
@@ -149,7 +151,7 @@
 	</section>
 
 	<section>
-		<Hideable>
+		<Hideable hide={allInterestsHidden}>
 			<h2 class="text-2xl print:text-4xl uppercase text-left">Interests</h2>
 			<hr />
 
