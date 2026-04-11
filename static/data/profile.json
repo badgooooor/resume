@@ -104,7 +104,7 @@
 			"url": "https://alphaventuredao.io",
 			"years": ["2021"],
 			"details": [
-				"Built DeFi trading interfaces integrated with Ethereum smart contracts, enabling users to interact with on-chain protocols directly from the web app",
+				"Built DeFi lending and staking interfaces using Web3.js, integrating directly with Ethereum smart contracts to handle on-chain transactions from the browser",
 				"Maintained and improved web application stability and UX across multiple active DeFi products"
 			]
 		},
