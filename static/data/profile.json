@@ -62,6 +62,18 @@
 			]
 		},
 		{
+			"position": "Open source Developer",
+			"company": "Protocol Labs Dev Guild",
+			"url": "https://contributiondao.com",
+			"years": ["2025"],
+			"details": [
+				"Selected as fellowship during Cohort 2 as contributor",
+				"Maintained and implemented features in IPFS web console and libp2p",
+				"Drived initiate on Bluesky backup web application using Storacha"
+			],
+			"hide": true
+		},
+		{
 			"position": "Software Engineer",
 			"company": "ContributionDAO",
 			"url": "https://contributiondao.com",
@@ -137,7 +149,7 @@
 		"fullVersionLink": ""
 	},
 	"interests": [
-		"Sports: running, rock climbing, pickleball and recently into tennis",
-		"Reading books in various topics e.g. non-fiction, literature and philosophy"
+		{ "value": "Sports: running, rock climbing, pickleball and recently into tennis" },
+		{ "value": "Reading books in various topics e.g. non-fiction, literature and philosophy" }
 	]
 }
