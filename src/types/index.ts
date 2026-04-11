@@ -1,5 +1,11 @@
+export interface ISummary {
+	value: string;
+	hide?: boolean;
+}
+
 export interface IProfileResp {
 	intro: IIntro;
+	summary?: ISummary;
 	projects: IProject[];
 	technologies: ITechnology[];
 	workExperiences: IWorkExperience[];

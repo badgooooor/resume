@@ -11,6 +11,7 @@
 	$: dataLink = `${sourceLink}/blob/main/static/data/profile.json`;
 	$: ({
 		intro = {} as IProfileResp['intro'],
+		summary = undefined as IProfileResp['summary'],
 		projects = [],
 		technologies = [],
 		workExperiences = [],
@@ -49,6 +50,16 @@
 
 <main class="text-center p-4 m-0 md:m-8 xl:mx-auto max-w-screen-xl">
 	<Intro {...intro} />
+
+	{#if summary}
+		<section>
+			<Hideable hide={summary.hide}>
+				<h2 class="text-2xl print:text-4xl uppercase text-left">Summary</h2>
+				<hr />
+				<p class="text-left">{summary.value}</p>
+			</Hideable>
+		</section>
+	{/if}
 
 	<section>
 		<Hideable>
