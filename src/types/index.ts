@@ -4,7 +4,7 @@ export interface IProfileResp {
 	technologies: ITechnology[];
 	workExperiences: IWorkExperience[];
 	educations: IEducation[];
-	interests: string[];
+	interests: { value: string; hide?: boolean }[];
 	openSourceContributions: IOpenSourceContribution[];
 	resumeUrl: {
 		sourceLink: string;
@@ -40,6 +40,7 @@ export interface IWorkExperience {
 	url: string;
 	years: string[];
 	details: string[];
+	hide?: true;
 }
 
 export interface IEducation {

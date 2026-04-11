@@ -6,10 +6,11 @@
 	export let url: string = '';
 	export let years: string[] = [];
 	export let details: string[] = [];
+	export let hide: boolean = false;
 </script>
 
 <div class="work-experience">
-	<Hideable>
+	<Hideable {hide}>
 		<div class="flex font-bold mb-2 print:mb-1">
 			<div class="flex-1 text-left">{position}</div>
 			<div class="flex-0">
