@@ -109,12 +109,13 @@
 			]
 		},
 		{
-			"position": "Software Engineer (Part-time)",
+			"position": "Software Engineer (Intern → Part-time)",
 			"company": "SCB 10X, Venture Builder",
 			"url": "https://scb10x.com",
-			"years": ["2021"],
+			"years": ["2020", "2021"],
 			"details": [
-				"Developed merchant backoffice and user-interacting app for wholesale e-commerce website"
+				"Built venture prototypes across multiple domains — including merchant landing page for delivery app and LINE chatbot — as part of a fast-moving venture builder environment",
+				"Developed a full-stack wholesale e-commerce platform including merchant backoffice, customer-facing storefront, and chatbot interfaces"
 			]
 		},
 		{
