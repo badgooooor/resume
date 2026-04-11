@@ -145,9 +145,9 @@
 
 			<ul class="text-left list-disc pl-8">
 				{#each interests as interest}
-					<Hideable>
+					<Hideable hide={interest.hide}>
 						<li>
-							{interest}
+							{interest.value}
 						</li>
 					</Hideable>
 				{/each}
