@@ -20,14 +20,20 @@
 			"url": "https://github.com/badgooooor/konseki"
 		},
 		{
+			"name": "silicon-accelerometer-ts",
+			"details": "Small Typescript API for accessing Macbook's accelerometer via C and Bun FFI",
+			"url": "https://github.com/badgooooor/silicon-accelerometer-ts"
+		},
+		{
 			"name": "Copilot-J",
-			"details": "LabLab Open Source AI Hackathon Submission. Open source Github Copilot alternative for VSCode plugging with LocalAI.",
+			"details": "LabLab Open Source AI Hackathon Submission. Open source Copilot alternative for VSCode with LocalAI.",
 			"url": "https://github.com/badgooooor/localai-vscode-plugin"
 		},
 		{
 			"name": "Grader for CE Boost Up 6",
 			"details": "Grader website for Freshmen in CE BOOST UP 6 Camp.",
-			"url": "https://github.com/badgooooor/grader-frontend"
+			"url": "https://github.com/badgooooor/grader-frontend",
+			"hide": true
 		}
 	],
 	"technologies": [
