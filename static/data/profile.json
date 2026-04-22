@@ -46,8 +46,8 @@
 			"details": "React/Next.js, Svelte, Nest.js, Fastify, TailwindCSS, RxJS"
 		},
 		{
-			"section": "Databases:",
-			"details": "SQL, MongoDB, Redis, Kafka"
+			"section": "Databases/Message queue:",
+			"details": "SQL Database (Postgres, MsSQL), MongoDB, Redis, Kafka"
 		},
 		{
 			"section": "Tools:",
@@ -55,7 +55,7 @@
 		},
 		{
 			"section": "Other:",
-			"details": "GCP, Firebase, GitHub Actions, Ethereum dApp development, FHIR/EHR health informatics"
+			"details": "GCP, Firebase, Supabase, GitHub Actions, Ethereum dApp development, FHIR/EHR health informatics"
 		}
 	],
 	"workExperiences": [
