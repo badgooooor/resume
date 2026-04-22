@@ -71,7 +71,7 @@
 				{#each technologies as tech}
 					<Hideable>
 						<li>
-							<span class="w-28 inline-block">{tech.section}</span>
+							<span class="inline-block">{tech.section}</span>
 							<span>{tech.details}</span>
 						</li>
 					</Hideable>
