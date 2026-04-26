@@ -21,7 +21,7 @@
 		},
 		{
 			"name": "silicon-accelerometer-ts",
-			"details": "Small Typescript API for accessing Macbook's accelerometer via C and Bun FFI",
+			"details": "Small TypeScript API for accessing Macbook's accelerometer via C and Bun FFI",
 			"url": "https://github.com/badgooooor/silicon-accelerometer-ts"
 		},
 		{
@@ -47,11 +47,11 @@
 		},
 		{
 			"section": "Databases/Message queue:",
-			"details": "SQL Database (Postgres, MsSQL), MongoDB, Redis, Kafka"
+			"details": "SQL Database (Postgres, MsSQL), MongoDB, Redis, Kafka, InfluxDB"
 		},
 		{
 			"section": "Tools:",
-			"details": "Git, Docker, Kubernetes, testcontainers, Playwright, Appium, k6, Amplitude, Datadog"
+			"details": "Git, Docker, Kubernetes, testcontainers, Playwright, Appium, k6, Optimizely, Google Analytics, Amplitude, Hotjar, Datadog"
 		},
 		{
 			"section": "Other:",
@@ -62,12 +62,13 @@
 		{
 			"position": "Quality Assurance Engineer (Automation)",
 			"company": "Earnin",
+			"companyDescription": "U.S.-based fintech startup with 4M+ users",
 			"url": "https://earnin.com",
 			"years": ["2025", "2026"],
 			"details": [
-				"Built and maintained an E2E test suite across web and mobile (Playwright), authoring 10+ PRs that reduced flaky monitoring failures and improved CI reliability across 3 frontend repositories",
-				"Drove quality signal initiatives — Datadog telemetry, Chromatic visual regression, and compliance test coverage for consent, PII, and screenshot archival — closing gaps with no prior automated coverage",
-				"Coordinated on-time release sign-offs across Growth, Web Platform, and Identity teams including cross-timezone alignment with US engineers; leveraged AI tooling to accelerate test generation"
+				"Built and maintained an E2E test suite across web and mobile (**Playwright** and **Appium**), authoring 10+ PRs that reduced flaky monitoring failures and improved CI reliability across 3 frontend repositories",
+				"Drove quality signal initiatives in growth experiments and identity modules — **Datadog** telemetry, **Chromatic** visual regression, test script for assigning **Optimizely** flag to user in test, SEO sitemap verification and prototype debug toolings as **Chrome Extension** and embedded-tools in mobile application for dogfooding — closing gaps with no prior automated coverage",
+				"Coordinated on-time release sign-offs across Growth, Web Platform, and Identity teams including cross-timezone alignment with US engineers; supported investigation with **Amplitude** and leveraged AI toolings to accelerate test generation"
 			]
 		},
 		{
@@ -85,33 +86,34 @@
 		{
 			"position": "Software Engineer",
 			"company": "ContributionDAO",
-			"url": "https://contributiondao.com",
+			"url": "https://staking.contributiondao.com/",
 			"years": ["2024", "2025"],
 			"details": [
-				"Built a Web3 staking platform using Wagmi for on-chain interactions — covering wallet connection, token staking, and reward tracking — from smart contract integration through to frontend UI",
-				"Implemented Playwright test suite covering the full crypto wallet flow from wallet connection through on-chain smart contract interaction, establishing automated coverage for a notoriously difficult-to-test surface",
-				"Configured GitHub Actions pipelines for automated build and deployment, reducing manual release steps and enabling faster iteration across the team"
+				"Built a Ethereum staking platform using **Wagmi** for on-chain interactions — covering wallet connection, token staking, and reward tracking — from smart contract integration through to **React** frontend with **Hotjar** analytics",
+				"Implemented **Playwright** test suite covering the full crypto wallet flow from wallet extension through on-chain smart contract interaction, establishing automated coverage for a notoriously difficult-to-test surface",
+				"Configured **GitHub Actions** pipelines for automated build and deployment in **Firebase**, reducing manual release steps and enabling faster iteration across the team"
 			]
 		},
 		{
 			"position": "Software Engineer",
 			"company": "H Lab Co. Ltd.",
 			"url": "https://www.hlabconsulting.com/",
+			"companyDescription": "Thailand-based healthtech company building AI-powered hospital information systems",
 			"years": ["2022", "2023"],
 			"details": [
-				"Developed full-stack modules across frontend, backend, and operations services for a healthcare software platform used in hospital workflows",
-				"Integrated hospital 3rd-party services including external FHIR APIs and OAuth-based SSO, enabling secure cross-system identity and data exchange in a regulated healthcare environment",
-				"Conducted system load testing that surfaced performance bottlenecks in production-bound services, driving targeted fixes that improved reliability before release"
+				"Developed full-stack modules across **React** frontend, **Nest.js** backend, and **SQL Database** for a healthcare software platform used in hospital workflows",
+				"Integrated hospital 3rd-party services including external **FHIR APIs** and **OAuth-based SSO**, enabling secure cross-system identity and data exchange in a regulated healthcare environment",
+				"Conducted performance testing with **k6**, **InfluxDB** and **Grafana** that surfaced performance bottlenecks in production-bound services, driving targeted fixes that improved reliability before release"
 			]
 		},
 		{
 			"position": "Software Engineer (Fullstack Team)",
-			"company": "Alpha Ventures DAO",
-			"url": "https://alphaventuredao.io",
+			"company": "Alpha Innovations Lab",
+			"url": "https://alphainnovationslab.io/",
 			"years": ["2021"],
 			"details": [
-				"Built DeFi lending and staking interfaces using Web3.js, integrating directly with Ethereum smart contracts to handle on-chain transactions from the browser",
-				"Maintained and improved web application stability and UX across multiple active DeFi products"
+				"Built **DeFi** lending and staking interfaces using **Web3.js**, integrating directly with **Ethereum smart contracts** to handle on-chain transactions from the browser",
+				"Maintained and implemented monitoring system for DeFi products including **cron-job** for batch processing, **Telegram** bots and web dashboard"
 			]
 		},
 		{
@@ -120,14 +122,14 @@
 			"url": "https://scb10x.com",
 			"years": ["2020", "2021"],
 			"details": [
-				"Built venture prototypes across multiple domains — including merchant landing page for delivery app and LINE chatbot — as part of a fast-moving venture builder environment",
-				"Developed a full-stack wholesale e-commerce platform including merchant backoffice, customer-facing storefront, and chatbot interfaces"
+				"Built venture prototypes across multiple products — including merchant landing page for delivery app and wholesale e-commerce platform with **Next.js** frontend and **Google Analytics** and **LINE chatbot** — as part of a fast-moving venture builder environment"
 			]
 		}
 	],
 	"educations": [
 		{
 			"head": "B.Eng. Computer Engineering",
+			"honors": "Second-Class Honors, GPA 3.49",
 			"details": "King Mongkut's Institute of Technology Ladkrabang, 2018–2021"
 		}
 	],
