@@ -18,7 +18,7 @@
 		educations = [],
 		interests = [],
 		openSourceContributions = [],
-		resumeUrl: { sourceLink = '', fullVersionLink = '' } = {}
+		resumeUrl: { sourceLink = '' } = {}
 	} = profile || {});
 
 	$: allInterestsHidden = interests.length > 0 && interests.every((i) => i.hide);
@@ -56,22 +56,24 @@
 	{#if summary}
 		<section>
 			<Hideable hide={summary.hide}>
-				<h2 class="text-2xl print:text-4xl uppercase text-left">Summary</h2>
+				<h2 class="text-2xl print:text-sm uppercase text-left">Summary</h2>
 				<hr />
-				<p class="text-left">{summary.value}</p>
+				<p class="text-left summary-body print:text-[11px] print:leading-snug">
+					{summary.value}
+				</p>
 			</Hideable>
 		</section>
 	{/if}
 
 	<section>
 		<Hideable>
-			<h2 class="text-2xl print:text-4xl uppercase text-left">Technologies and Languages</h2>
+			<h2 class="text-2xl print:text-sm uppercase text-left">Technologies and Languages</h2>
 			<hr />
 			<ul class="text-left list-disc pl-8">
 				{#each technologies as tech}
 					<Hideable>
-						<li>
-							<span class="inline-block">{tech.section}</span>
+						<li class="print:text-[11px] print:leading-snug">
+							<span class="inline-block font-medium">{tech.section}</span>
 							<span>{tech.details}</span>
 						</li>
 					</Hideable>
@@ -82,14 +84,14 @@
 
 	<section>
 		<Hideable>
-			<h2 class="text-2xl print:text-4xl uppercase text-left">Education</h2>
+			<h2 class="text-2xl print:text-sm uppercase text-left">Education</h2>
 			<hr />
 
 			<ul class="text-left list-disc pl-8">
 				{#each educations as edu}
 					<Hideable>
-						<li>
-							<strong>{edu.head}</strong>, {edu.details}
+						<li class="print:text-[11px]">
+							<strong>{edu.head}</strong>{#if edu.honors}, <em>{edu.honors}</em>{/if}, {edu.details}
 						</li>
 					</Hideable>
 				{/each}
@@ -99,7 +101,7 @@
 
 	<section>
 		<Hideable>
-			<h2 class="text-2xl print:text-4xl uppercase text-left">Work Experience</h2>
+			<h2 class="text-2xl print:text-sm uppercase text-left">Work Experience</h2>
 			<hr />
 
 			{#each workExperiences as exp}
@@ -110,7 +112,7 @@
 
 	<section>
 		<Hideable>
-			<h2 class="text-2xl print:text-4xl uppercase text-left">Projects</h2>
+			<h2 class="text-2xl print:text-sm uppercase text-left">Projects</h2>
 			<hr />
 
 			<ul class="text-left list-disc pl-8">
@@ -130,7 +132,7 @@
 
 	<section>
 		<Hideable>
-			<h2 class="text-2xl print:text-4xl uppercase text-left">Open Source Contributions</h2>
+			<h2 class="text-2xl print:text-sm uppercase text-left">Open Source Contributions</h2>
 			<hr />
 
 			<ul class="text-left list-disc pl-8">
@@ -152,7 +154,7 @@
 
 	<section>
 		<Hideable hide={allInterestsHidden}>
-			<h2 class="text-2xl print:text-4xl uppercase text-left">Interests</h2>
+			<h2 class="text-2xl print:text-sm uppercase text-left">Interests</h2>
 			<hr />
 
 			<ul class="text-left list-disc pl-8">
@@ -166,11 +168,6 @@
 			</ul>
 		</Hideable>
 	</section>
-
-	<footer class="print-only">
-		(See <a href={fullVersionLink} target="_blank" rel="noopener">full version</a>
-		or <a href={sourceLink} target="_blank" rel="noopener">source</a>)
-	</footer>
 </main>
 
 <style lang="postcss">
@@ -195,25 +192,16 @@
 		border-color: darkgrey;
 	}
 
-	:global(.print-only) {
-		display: none;
-	}
-
 	@media print {
-		* {
-			@apply text-xs;
-		}
-
-		:global(.print-only) {
-			display: inherit;
-		}
-
 		:global(.web-only) {
 			display: none;
 		}
 
-		ul {
-			@apply pl-6;
+		main {
+			margin: 0;
+			padding: 0;
+			max-width: none;
+			@apply text-[11px] leading-snug text-black;
 		}
 
 		section {
@@ -221,12 +209,17 @@
 		}
 
 		section hr {
-			@apply mt-0 mb-1;
+			@apply mt-0 mb-1 border-slate-400;
 		}
 
-		main {
-			margin: 0 0;
-			padding: 0;
+		ul {
+			@apply pl-6;
+		}
+
+		main a {
+			text-decoration: none;
+			color: inherit;
+			border-bottom: 0.5pt solid #999;
 		}
 	}
 </style>

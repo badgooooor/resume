@@ -32,7 +32,7 @@ export interface IProject {
 	name: string;
 	details: string;
 	url: string;
-	hide: boolean;
+	hide?: boolean;
 }
 
 export interface ITechnology {
@@ -43,6 +43,8 @@ export interface ITechnology {
 export interface IWorkExperience {
 	position: string;
 	company: string;
+	/** One-line context for recruiters (scale, region, domain). */
+	companyDescription?: string;
 	url: string;
 	years: string[];
 	details: string[];
@@ -52,6 +54,8 @@ export interface IWorkExperience {
 export interface IEducation {
 	head: string;
 	details: string;
+	/** e.g. Latin honors — omit if not applicable */
+	honors?: string;
 }
 
 export interface IOpenSourceContribution {

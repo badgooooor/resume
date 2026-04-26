@@ -7,10 +7,18 @@
 	export let linkedin: string = 'yuttakhan-baingern-794853167';
 	export let location: string = '';
 	export let website: string = 'https://yuttakhanb.dev';
+
+	$: websiteHref =
+		website.startsWith('http://') || website.startsWith('https://')
+			? website
+			: `https://${website}`;
+	$: websiteDisplay = website.replace(/^https?:\/\//, '');
 </script>
 
-<div class="flex flex-wrap flex-col sm:flex-row print:flex-row text-sm sm:text-base">
-	<div class="flex-1 text-left sm:py-4 w-48">
+<div class="intro flex flex-wrap flex-col sm:flex-row print:flex-row text-sm sm:text-base">
+	<div
+		class="flex-1 text-left sm:py-4 w-48 print:text-[10px] print:leading-snug print:py-2"
+	>
 		<p><a href={`tel:${phone}`}>{phone}</a></p>
 		<p><a href={`mailto:${email}`}>{email}</a></p>
 		<p>{location}</p>
@@ -23,14 +31,16 @@
 		<span class="block -mt-1 text-base lg:text-lg">({nickname})</span>
 	</h2>
 
-	<div class="flex-1 text-left sm:text-right print:text-right sm:py-4 w-48 text-sm sm:text-base">
+	<div
+		class="flex-1 text-left sm:text-right print:text-right sm:py-4 w-48 text-sm sm:text-base print:text-[10px] print:leading-snug print:py-2"
+	>
 		<p>
 			<a href={`https://github.com/${github}`} target="_blank" rel="noreferrer"
 				>github.com/{github}</a
 			>
 		</p>
 		<p>
-			<a href={`https://${website}`} target="_blank" rel="noreferrer">{website}</a>
+			<a href={websiteHref} target="_blank" rel="noreferrer">{websiteDisplay}</a>
 		</p>
 		<p>
 			<a href={`https://linkedin.com/in/${linkedin}`} target="_blank" rel="noreferrer">Linkedin</a>
@@ -41,5 +51,12 @@
 <style lang="postcss">
 	a {
 		text-decoration: underline;
+	}
+
+	@media print {
+		.intro a {
+			text-decoration: none;
+			border-bottom: 0.5pt solid #999;
+		}
 	}
 </style>
