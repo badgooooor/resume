@@ -19,7 +19,7 @@
 				<a class="company-link" href={url} target="_blank" rel="noreferrer">{company}</a>
 				{#if companyDescription}
 					<div
-						class="company-tagline block font-normal font-sans text-xs sm:text-sm print:text-[9px] text-slate-600 print:text-slate-700 mt-0.5 leading-tight print:mt-1"
+						class="company-tagline block font-normal font-sans text-xs sm:text-sm print:text-[9px] text-slate-600 print:text-slate-700 mt-0.5 leading-tight print:mt-1 whitespace-pre-line"
 					>
 						{companyDescription}
 					</div>

@@ -61,10 +61,10 @@
 	"workExperiences": [
 		{
 			"position": "Quality Assurance Engineer (Automation)",
-			"company": "Earnin",
-			"companyDescription": "U.S.-based fintech startup with 4M+ users",
+			"company": "EarnIn",
+			"companyDescription": "U.S.-based fintech startup with 4M+ users\n(Laid off due to company restructuring)",
 			"url": "https://earnin.com",
-			"years": ["2025", "2026"],
+			"years": ["Apr 2025", "Apr 2026"],
 			"details": [
 				"Built and maintained an E2E test suite across web and mobile (**Playwright** and **Appium**), authoring 10+ PRs that reduced flaky monitoring failures and improved CI reliability across 3 frontend repositories",
 				"Drove quality signal initiatives in growth experiments and identity modules — **Datadog** telemetry, **Chromatic** visual regression, test script for assigning **Optimizely** flag to user in test, SEO sitemap verification and prototype debug toolings as **Chrome Extension** and embedded-tools in mobile application for dogfooding — closing gaps with no prior automated coverage",
@@ -87,7 +87,7 @@
 			"position": "Software Engineer",
 			"company": "ContributionDAO",
 			"url": "https://staking.contributiondao.com/",
-			"years": ["2024", "2025"],
+			"years": ["Jan 2024", "Apr 2025"],
 			"details": [
 				"Built a Ethereum staking platform using **Wagmi** for on-chain interactions — covering wallet connection, token staking, and reward tracking — from smart contract integration through to **React** frontend with **Hotjar** analytics",
 				"Implemented **Playwright** test suite covering the full crypto wallet flow from wallet extension through on-chain smart contract interaction, establishing automated coverage for a notoriously difficult-to-test surface",
@@ -99,7 +99,7 @@
 			"company": "H Lab Co. Ltd.",
 			"url": "https://www.hlabconsulting.com/",
 			"companyDescription": "Thailand-based healthtech company building AI-powered hospital information systems",
-			"years": ["2022", "2023"],
+			"years": ["Jan 2022", "Dec 2023"],
 			"details": [
 				"Developed full-stack modules across **React** frontend, **Nest.js** backend, and **SQL Database** for a healthcare software platform used in hospital workflows",
 				"Integrated hospital 3rd-party services including external **FHIR APIs** and **OAuth-based SSO**, enabling secure cross-system identity and data exchange in a regulated healthcare environment",
@@ -110,7 +110,7 @@
 			"position": "Software Engineer (Fullstack Team)",
 			"company": "Alpha Innovations Lab",
 			"url": "https://alphainnovationslab.io/",
-			"years": ["2021"],
+			"years": ["June 2021", "Oct 2021"],
 			"details": [
 				"Built **DeFi** lending and staking interfaces using **Web3.js**, integrating directly with **Ethereum smart contracts** to handle on-chain transactions from the browser",
 				"Maintained and implemented monitoring system for DeFi products including **cron-job** for batch processing, **Telegram** bots and web dashboard"
