@@ -64,7 +64,7 @@
 			"company": "EarnIn",
 			"companyDescription": "U.S.-based fintech startup with 4M+ users\n(Laid off due to company restructuring)",
 			"url": "https://earnin.com",
-			"years": ["Apr 2025", "Apr 2026"],
+			"years": ["Apr 2025", "May 2026"],
 			"details": [
 				"Built and maintained an E2E test suite across web and mobile (**Playwright** and **Appium**), authoring 10+ PRs that reduced flaky monitoring failures and improved CI reliability across 3 frontend repositories",
 				"Drove quality signal initiatives in growth experiments and identity modules — **Datadog** telemetry, **Chromatic** visual regression, test script for assigning **Optimizely** flag to user in test, SEO sitemap verification and prototype debug toolings as **Chrome Extension** and embedded-tools in mobile application for dogfooding — closing gaps with no prior automated coverage",
@@ -120,7 +120,10 @@
 			"position": "Software Engineer (Intern → Part-time)",
 			"company": "SCB 10X, Venture Builder",
 			"url": "https://scb10x.com",
-			"years": ["2020", "2021"],
+			"periods": [
+				{ "start": "Jun 2020", "end": "Mar 2021" },
+				{ "start": "Jul 2020", "end": "May 2021" }
+			],
 			"details": [
 				"Built venture prototypes across multiple products — including merchant landing page for delivery app and wholesale e-commerce platform with **Next.js** frontend and **Google Analytics** and **LINE chatbot** — as part of a fast-moving venture builder environment"
 			]

@@ -40,13 +40,22 @@ export interface ITechnology {
 	details: string;
 }
 
+/** One contiguous employment span (e.g. internship gap then part-time). */
+export interface IWorkPeriod {
+	start: string;
+	end: string;
+}
+
 export interface IWorkExperience {
 	position: string;
 	company: string;
 	/** One-line context for recruiters (scale, region, domain). */
 	companyDescription?: string;
 	url: string;
-	years: string[];
+	/** Single range: `[start, end]` → rendered as `start-end`. */
+	years?: string[];
+	/** Multiple ranges; when present, takes precedence over `years`. */
+	periods?: IWorkPeriod[];
 	details: string[];
 	hide?: true;
 }

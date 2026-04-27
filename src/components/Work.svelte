@@ -2,13 +2,26 @@
 	import Hideable from './Hideable.svelte';
 	import RichText from './RichText.svelte';
 
+	import type { IWorkPeriod } from '../types';
+
 	export let position: string = '';
 	export let company: string = '';
 	export let companyDescription: string | undefined = undefined;
 	export let url: string = '';
 	export let years: string[] = [];
+	export let periods: IWorkPeriod[] | undefined = undefined;
 	export let details: string[] = [];
 	export let hide: boolean = false;
+
+	function formatPeriodRange(p: IWorkPeriod) {
+		return `${p.start}-${p.end}`;
+	}
+
+	$: dateLabel =
+		periods && periods.length > 0
+			? periods.map(formatPeriodRange).join('; ')
+			: years.join('-');
+	$: dateCellWrap = periods && periods.length > 1;
 </script>
 
 <div class="work-experience">
@@ -25,7 +38,13 @@
 					</div>
 				{/if}
 			</div>
-			<div class="flex-1 text-right whitespace-nowrap">{years.join('-')}</div>
+			<div
+				class="flex-1 text-right min-w-0 {dateCellWrap
+					? 'whitespace-normal print:whitespace-normal'
+					: 'whitespace-nowrap'}"
+			>
+				{dateLabel}
+			</div>
 		</div>
 		<ul class="text-left list-disc pl-8 print:pl-6 mt-1 print:mt-0.5">
 			{#each details as detail}
