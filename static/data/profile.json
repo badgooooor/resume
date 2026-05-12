@@ -43,11 +43,11 @@
 		},
 		{
 			"section": "Frameworks:",
-			"details": "React/Next.js, Svelte, Nest.js, Fastify, TailwindCSS, RxJS"
+			"details": "React/Next.js, Svelte, Nest.js, Fastify, TailwindCSS, RxJS, FastAPI"
 		},
 		{
 			"section": "Databases/Message queue:",
-			"details": "SQL Database (Postgres, MsSQL), MongoDB, Redis, Kafka, InfluxDB"
+			"details": "SQL Database (PostgresQL, MsSQL), MongoDB, Redis, Kafka, InfluxDB"
 		},
 		{
 			"section": "Tools:",
