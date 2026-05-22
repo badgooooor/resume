@@ -121,8 +121,8 @@
 			"company": "SCB 10X, Venture Builder",
 			"url": "https://scb10x.com",
 			"periods": [
-				{ "start": "Jun 2020", "end": "Mar 2021" },
-				{ "start": "Jul 2020", "end": "May 2021" }
+				{ "start": "Jun 2020", "end": "Jul 2020" },
+				{ "start": "Mar 2021", "end": "May 2021" }
 			],
 			"details": [
 				"Built venture prototypes across multiple products — including merchant landing page for delivery app and wholesale e-commerce platform with **Next.js** frontend and **Google Analytics** and **LINE chatbot** — as part of a fast-moving venture builder environment"
