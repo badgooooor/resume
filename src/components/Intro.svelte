@@ -19,8 +19,8 @@
 	<div
 		class="flex-1 text-left sm:py-4 w-48 print:text-[10px] print:leading-snug print:py-2"
 	>
-		<p><a href={`tel:${phone}`}>{phone}</a></p>
 		<p><a href={`mailto:${email}`}>{email}</a></p>
+		<p class="hidden print:block"><a href={`tel:${phone}`}>{phone}</a></p>
 		<p>{location}</p>
 	</div>
 
